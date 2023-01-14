@@ -1,0 +1,59 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-14T00:49:08.553Z",
+        "line": 8,
+        "name": "As a httpbin user, i need to validate send data with HTTP post function",
+        "description": "",
+        "id": "testing-api-create-function;as-a-httpbin-user--i-need-to-validate-send-data-with-http-post-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "setup test data into jason \u0026 use post method",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "validate test cases",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing API create function",
+    "description": "",
+    "id": "testing-api-create-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/API%20Post%20Test.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
